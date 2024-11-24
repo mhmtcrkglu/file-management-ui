@@ -33,10 +33,10 @@ The **File Management System UI** is a frontend application for managing and int
 
 ### Testing the Application
 To test the application's functionality:
-1. **Upload Files**: Verify upload functionality by adding supported files (PDF, Excel, Word, TXT, and images).
+1. **Upload Files**: Verify upload functionality by adding supported files (PDF, Excel, Word, TXT, and images). Ensure multi-file upload is supported and works seamlessly.
 2. **Preview Documents**: Confirm documents display correctly using the Google Viewer preview.
 3. **Share Files**: Generate and test public links to ensure they expire as configured in the backend.
-4. **Download Files**: Check file download functionality.
+4. **Download Files**: Check file download functionality, including multi-file downloads. Select multiple files using the buttons on the cards' top-right corners and then use the "Download Selected" button that appears to download the chosen files.
 5. **Static UI Features**: Explore sidebar and storage area components to review their presentation.
 
 ---
