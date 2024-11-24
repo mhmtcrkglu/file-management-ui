@@ -1,0 +1,64 @@
+.side-bar-container {
+  height: 100vh;
+  display: flex;
+}
+
+mat-drawer {
+  width: 240px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.side-bar-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+mat-nav-list {
+  padding: 8px;
+}
+
+mat-nav-list a {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #424242;
+  transition: background-color 0.3s;
+}
+
+mat-nav-list a.active-link {
+  background-color: #e3f2fd; 
+  color: #1976d2;
+}
+
+mat-nav-list a:hover {
+  background-color: #f5f5f5;
+}
+
+mat-icon {
+  margin-right: 8px;
+}
+
+.storage-info {
+  margin-top: 16px;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.storage-info button {
+  margin-top: 8px;
+}
+
+.success-snackbar {
+  background-color: #4caf50 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.error-snackbar {
+  background-color: #f44336 !important;
+  color: white;
+  font-weight: bold;
+}

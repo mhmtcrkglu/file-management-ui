@@ -1,0 +1,106 @@
+# Node.js
+##########################
+# Node modules (installed packages)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+##########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# IDE-specific
+##########################
+# VSCode
+.vscode/
+
+# IntelliJ IDEA, WebStorm, and Rider
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio
+.vs/
+.vs2017/
+
+# User-specific IDE files
+##########################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Angular-specific
+##########################
+# Angular build output
+dist/
+out-tsc/
+coverage/
+
+# Angular local development
+.angular/
+
+# Temporary files
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment files (be careful with this one)
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Build output and files
+##########################
+# Build artifacts
+build/
+tmp/
+
+# Miscellaneous
+##########################
+# IntelliJ/WebStorm specific files
+*.iml
+
+# npm package lock file (optional)
+package-lock.json
+yarn.lock
+
+# Test output
+##########################
+# Karma test output
+karma-coverage/
+*.gcda
+*.gcno
+*.lcov-report/
+
+# System Files
+##########################
+# Windows Installer
+Thumbs.db
+ehthumbs.db
+
+# OS specific files
+# macOS and Linux
+.Trashes/
+
+# VS Code specific
+.vscode/

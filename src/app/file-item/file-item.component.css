@@ -1,0 +1,59 @@
+.file-item-card {
+  max-width: 350px;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+mat-card-header {
+  padding-left: 50px;
+  position: relative;
+}
+
+.file-select-checkbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.file-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  gap: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.text {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.fixed-card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.file-header {
+  display: flex;
+  align-items: center;
+  margin-left: -35px;
+}
+
+.file-header mat-icon {
+  margin-right: 8px;
+}
+
+.file-header mat-card-title {
+  flex-grow: 1;
+}

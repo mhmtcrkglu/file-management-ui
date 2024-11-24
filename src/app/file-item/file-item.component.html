@@ -1,0 +1,59 @@
+<mat-card class="file-item-card" appearance="outlined">
+  <mat-card-header>
+    <div class="file-header">
+      <mat-icon>{{ getFileIconName() }}</mat-icon>
+      <mat-card-title>{{ getEllipsisName(file.name, 20) }}</mat-card-title>
+      <mat-checkbox 
+        class="file-select-checkbox"
+        [(ngModel)]="file.selected"
+        (change)="onFileSelectChange(file)">
+      </mat-checkbox>
+    </div>
+  </mat-card-header>
+
+  <img
+    class="fixed-card-image"
+    mat-card-image
+    [src]="file.thumbnailLink"
+    alt="File Preview"
+  />
+
+  <mat-card-content>
+    <div class="file-info-container">
+      <p class="text">Uploaded: {{ file.uploadDate | date: 'yyyy-MM-dd HH:mm' }}</p>
+      <div class="button-group">
+        <button 
+          aria-hidden="false"   
+          matTooltip="Download file"
+          matTooltipPosition="above"
+          matTooltipShowDelay="500"
+          matTooltipHideDelay="300"
+          aria-label="Download" 
+          mat-icon-button (click)="onDownloadClick(file.id)">
+          <mat-icon>download</mat-icon>
+        </button>
+        <button 
+          aria-hidden="false"   
+          matTooltip="Share file"
+          matTooltipPosition="above"
+          matTooltipShowDelay="500"
+          matTooltipHideDelay="300"
+          aria-label="Share"
+          mat-icon-button (click)="onGenerateShareLinkClick(file.id)">
+          <mat-icon>link</mat-icon>
+        </button>
+        <button 
+          aria-hidden="false"   
+          matTooltip="Preview file"
+          matTooltipPosition="above"
+          matTooltipShowDelay="500"
+          matTooltipHideDelay="300"
+          aria-label="Preview"
+          mat-icon-button (click)="onPreviewClick(file.id)">
+          <mat-icon>visibility</mat-icon>
+        </button>
+      </div>
+    </div>
+    <p class="text">Downloaded: {{ file.downloadCount }}</p>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,18 @@
+.main-container {
+  height: 100vh;
+}
+
+.content {
+  padding-top: 10px;
+  padding-left: 10px;
+  background: #f9f9f9;
+}
+
+
+::ng-deep .mat-tooltip {
+  background: #333;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px;
+}
