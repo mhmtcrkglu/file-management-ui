@@ -14,7 +14,7 @@ The **File Management System UI** is a frontend application for managing and int
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/mhmtcrkglu/file-management-app.git
+   git clone https://github.com/mhmtcrkglu/file-management-ui.git
    cd file-management-app
    ```
 
